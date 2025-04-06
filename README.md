@@ -2,13 +2,13 @@
 # Overview
 This project presents a deep learning-based diagnostic system that leverages acoustic signals for non-invasive, real-time fault detection in electric motors. Using Mel-frequency cepstral coefficients (MFCC) extracted from vibration recordings, we trained multiple neural network architectures (CNN, RNN, and CNN+RNN) to classify motor bearing faults with high accuracy and low compuation, even in noisy industrial environments.
 # Scope
-  Early Detection of Motor Faults: Identify defects such as single-point failures in drive and fan end bearings.
+  * Early Detection of Motor Faults: Identify defects such as single-point failures in drive and fan end bearings.
   
-  Acoustic-Based Diagnostics: Use audio signals instead of traditional vibration sensors for a more cost-effective, flexible solution.
+  * Acoustic-Based Diagnostics: Use audio signals instead of traditional vibration sensors for a more cost-effective, flexible solution.
   
-  Robust Modeling: Handle noisy environments with minimal preprocessing using deep learning.
+  * Robust Modeling: Handle noisy environments with minimal preprocessing using deep learning.
   
-  Efficiency & Real-Time Focus: Tailored for edge deployment using quantization and model approximation.
+  * Efficiency & Real-Time Focus: Tailored for edge deployment using quantization and model approximation.
 # Novelty approach
 Hybrid Deep Learning Models: Comparison of CNN, RNN, and a custom CNN + GRU + Conv1D hybrid model to determine optimal trade-offs between accuracy and speed.
 
