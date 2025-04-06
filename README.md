@@ -1,6 +1,8 @@
 # FAULT-CLASSIFICATION-USING-ACOUSTIC-SIGNAL-IN-ELECTRIC-MOTORS
 # Overview
 This project presents a deep learning-based diagnostic system that leverages acoustic signals for non-invasive, real-time fault detection in electric motors. Using Mel-frequency cepstral coefficients (MFCC) extracted from vibration recordings, we trained multiple neural network architectures (CNN, RNN, and CNN+RNN) to classify motor bearing faults with high accuracy and low compuation, even in noisy industrial environments.
+# Dataset
+* CWRU dataset - The Case Western Reserve University Bearing Data Center
 # Scope
   * Early Detection of Motor Faults: Identify defects such as single-point failures in drive and fan end bearings.
   
